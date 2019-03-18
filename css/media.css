@@ -1,0 +1,144 @@
+@media screen and (min-width: 680px){
+  
+  .logo{
+    width: 98px;
+    height: 95px;
+    background-size: auto;
+  }
+  .nav-btn{
+    display: none;
+  }
+  .main-nav ul{
+    position: static;
+    width: auto;
+    padding: 28px 0 0 120px;
+    background: transparent;
+    display: block;
+  }
+  .main-nav li{
+    display: inline-block;
+    margin-right: 29px;
+  }
+  .main-nav a{
+    font-size: 14px;
+    display: inline-block;
+    border: none;
+    color: #f26c4f;
+  }
+	h2{
+		padding: 115px  0 0 57px;
+	}
+	.blue-column p{
+		padding: 42px  0 0 57px;
+		line-height: 1.4;
+	}
+	.red-column{
+		width: 93vw;
+	}
+}
+
+@media screen and (min-width: 980px){
+  .top-page{
+    height: 544px;
+  }
+	.main-text .container{
+		width: 407px;
+		height: 586px;
+		margin:  0 0 0 0;
+	}
+	.blue-column{
+		position: absolute;
+		top: 544px;
+		right: 0;
+		width: 514px;
+		height: 531px;
+		padding: 0;
+	}
+	.blue-column p{
+		line-height: 1.45;
+	}
+	h1{
+	margin: 87px 0 0 0;
+	font-size: 43px;
+	}
+	p:first-of-type{
+	padding-top: 7px;
+	}
+	button{
+	width: 220px;
+	}
+	h3{
+		padding-top: 95px;
+	}
+	.red-column .container{
+		width: 580px;
+		margin: 0;
+	}
+	.red-column{
+		margin-top: 63px;
+	}
+	.red-column p{
+		margin-bottom: 47px;
+	}
+}
+
+@media screen and (min-width: 1174px){
+	
+	.top-page .container{
+		width: 1174px;
+	}
+	.main-text .container{
+		width: 580px;
+	}
+	.top-page{
+  height: 544px;
+  }
+  .main-text{
+		padding: 0 30px 43px 0;
+	}
+	.red-column{
+	width: auto;
+	height: 490px;
+	padding: 0;
+	margin-top: 30px;
+	}
+	.blue-column{
+		top: 543px;
+		right: 87px;
+		width: 514px;
+		height: 534px;
+		margin: 1px 1px 1px 1px;
+	}
+	.blue-column p::after{
+		content: "in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est ";
+	}
+	.body{
+		width: 1174px;
+		margin: 0 auto;
+	}
+	h2{
+		margin: 3px 30px 23px 2px;
+	}
+	p:first-of-type{
+	padding-top: 0;
+	}
+		h1::after{
+		content: "ctetur";
+	}
+	p:nth-of-type(3)::after{
+		content: "sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.";
+	}
+	h2::after{
+		content: "sed do eiusmod tempor ";
+	}
+	.red-column p::after{
+		content: "ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum";	
+		line-height: 1.4;
+	}
+	.red-column p{
+		margin: 0 0 34px 2px; 
+	}
+	button{
+		margin-left: 2px;
+	}
+}
